@@ -754,11 +754,11 @@ section {
 }
 
 .big {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
-	margin: 40px -10px;
+	margin: 30px -10px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
@@ -767,7 +767,7 @@ section {
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
-	margin: 120px -10px -10px;
+	margin: 100px -10px -10px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
