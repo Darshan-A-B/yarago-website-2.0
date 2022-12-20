@@ -148,7 +148,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .section {
-	padding:25px 0 20px;
+	padding:15px 0 20px;
 	position:relative;
 }
 
@@ -160,6 +160,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	border-bottom-width: 0px;
 	margin-bottom: 42px;
 	position: relative;
+  margin-top: 30px;
 }
 
 .title-box h2.title {
@@ -276,6 +277,7 @@ section {
     line-height: 22px;
     font-weight: 600;
     padding: 6px 23px;
+    margin-bottom: 7px;
     font-size: 15px;
     border-radius: 20px;
     border: 2px solid transparent;
@@ -686,7 +688,7 @@ section {
 	color: #FFF;
 	font-weight: bold;
 	font-size: 20px;
-	text-transform: uppercase;
+	text-transform: none;
 	transition: all 0.25s ease 0s;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
@@ -752,15 +754,42 @@ section {
 }
 
 .big {
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: bold;
-	line-height: 60px;
+	line-height: 55px;
 	text-transform: none;
-	margin: 0px -10px;
+	margin: 40px -10px;
+	color: white;
+  text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
+}
+.big-2 {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 55px;
+	text-transform: none;
+	margin: 120px -10px -10px;
+	color: white;
+  text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
+}
+.big-3 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 55px;
+	text-transform: none;
+	margin: 230px -10px -30px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
 
+.small-2 {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 30px 0px 0px;
+    text-transform: none;
+	font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
+}
 .small {
     font-size: 20px;
     font-weight: 200;
@@ -1096,12 +1125,13 @@ html[xmlns] .slides {
 }
 
 .tab-content-main {
-	padding: 0px 0px 0px;
+	padding: 30px 0px 30px;
 }
 
 .tab-content-main img {
 	float: left;
 	margin-right: 75px;
+  margin-top: 30px;
 }
 
 .tab1-features {
@@ -1201,7 +1231,7 @@ html[xmlns] .slides {
 }
 
 .features-tab3 .features-left, .features-tab3 .features-right {
-	padding-top: 80px;
+	padding-top: 10px;
 }
 
 .features-tab3 .features-left h4, .features-tab3 .features-right h4, .features-tab3 .features-left p, .features-tab3 .features-right p {
@@ -1648,8 +1678,8 @@ ul.timeline {
 
 
 #team {
-	padding:25px 0px 20px;
-	background: #FFF;
+	padding:150px 0px 20px 30px;
+	background: darkseagreen;
 }
 
 .team-items {
@@ -2148,7 +2178,7 @@ ul.timeline {
 .clients-carousel .item figure img {
 	display: block;
 	margin: 0 auto;
-	opacity:0.5;
+	opacity:4.8;
 }
 
 .clients-carousel .item figure img:hover {
@@ -2274,23 +2304,46 @@ ul.timeline {
 /*   Single Work Page
 /*-----------------------------------------------------------------*/
 
- #page-header {
+ #page-headeremr {
 	background:url('../images/page-header.jpg');
 	padding: 130px 0px 80px;
 	text-align: center;
 }
 
-#page-header:after {
+#page-headeremr:after {
 	background:rgba(0, 0, 0, .5);
 	position:absolute;
 	left:0px;
 	right:0px;
 }
 
-#page-header h1 {
+#page-headeremr h1 {
 	margin-bottom: 0px;
 	color: #FFF;
 	font-weight: 600;
+}
+#page-headeremr h2{
+	margin-bottom: 0px;
+	color: #FFF;
+	font-weight: 450;
+}
+#page-header {
+ background:url('../images/page-header.jpg');
+ padding: 130px 0px 80px;
+ text-align: center;
+}
+
+#page-header:after {
+ background:rgba(0, 0, 0, .5);
+ position:absolute;
+ left:0px;
+ right:0px;
+}
+
+#page-header h1 {
+ margin-bottom: 0px;
+ color: #FFF;
+ font-weight: 600;
 }
 
 .breadcrumb {
@@ -2847,8 +2900,8 @@ li.comment ol.comment-sub {
 
 .contact-info p {
     font-size: 17px;
-    line-height: 13px;
-    margin-bottom: 16px;
+    line-height: 35px;
+    margin-bottom: 20px;
     color: #FFF;
 }
 
