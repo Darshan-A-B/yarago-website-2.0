@@ -38,7 +38,7 @@ h3 {
 p {
 	margin-bottom: 22px;
 	font-family: "Open Sans", sans-serif;
-	font-size:14px;
+	font-size:16px;
 	line-height: 25px;
 	color: #727272;
 	font-weight: 400;
@@ -142,13 +142,20 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	display:block;
 	line-height:33px;
 }
-
+.productheading{
+  padding-left: 30px;
+ font-size: 300%;
+ color: green;
+ font-weight: bold;
+  margin-left: 450px;
+  margin-bottom: 30px;
+}
 .scrollup:hover {
 	background:rgba(126, 193, 63, .9);
 }
 
 .section {
-	padding:6% 0 1%;
+	padding:6% 0 0;
 	position:relative;
 }
 
@@ -657,7 +664,16 @@ section {
 	width: 100%;
 	position: fixed;
 	z-index: 99999;
-  /* background-color: black; */
+
+
+}
+#header-aboutus {
+	top: 0;
+	z-index: 500;
+	width: 100%;
+	position: fixed;
+	z-index: 99999;
+  background-color: black;
 
 }
 
@@ -759,7 +775,7 @@ section {
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
-	margin: 10px -8px;
+	margin: 9px -8px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
@@ -1539,6 +1555,7 @@ ul.timeline {
     transition: all 0.25s linear 0s;
     padding: 20px 24px;
     margin-bottom: 15px;
+
     color: #5C5C5C;
     font-weight:600;
     font-size: 14px;
@@ -2917,6 +2934,7 @@ footer {
 
 .copyright p{
 	color:#CCC;
+  font-size: 10px;
 }
 
 .social-icons {
