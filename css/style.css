@@ -148,7 +148,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .section {
-	padding:15px 0 20px;
+	padding:6% 0 1%;
 	position:relative;
 }
 
@@ -759,7 +759,7 @@ section {
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
-	margin: 8px -10px;
+	margin: 10px -8px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
