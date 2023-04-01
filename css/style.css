@@ -143,12 +143,11 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	line-height:33px;
 }
 .productheading{
-  padding-left: 30px;
- font-size: 300%;
- color: green;
- font-weight: bold;
-  margin-left: 450px;
-  margin-bottom: 30px;
+text-align: center;
+color: darkgreen;
+font-weight: bold;
+padding-bottom: 30px;
+font-size: 40px;
 }
 .scrollup:hover {
 	background:rgba(126, 193, 63, .9);
@@ -771,11 +770,11 @@ section {
 
 .big {
 
-	font-size: 350%;
+	font-size: 250%;
 	font-weight: bold;
-	line-height: 55px;
+	line-height: 40px;
 	text-transform: none;
-	margin: 9px -8px;
+	margin: 7px -8px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
@@ -784,12 +783,12 @@ section {
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
-	margin: 100px -10px -10px;
+	margin: 80px -10px -10px;
 	color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
 .big-3 {
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: bold;
 	line-height: 55px;
 	text-transform: none;
@@ -801,14 +800,14 @@ section {
 .small-2 {
     font-size: 30px;
     font-weight: 200;
-    margin: 65px 0px 10px;
+    margin: 50px 0px 10px;
     text-transform: none;
 	font-weight: 600;
   color: white;
   text-shadow: 2px 2px 3px black,0 0 1em black, 0 0 1em black;
 }
 .small {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
     margin: 30px 0px 0px;
     text-transform: none;
@@ -1602,6 +1601,7 @@ ul.timeline {
 .work-grid .work-item .work-image img {
 	width:100%;
 	height: 100%;
+  padding: 4%;
 }
 
 .work-grid .work-item .work-caption {
@@ -3014,7 +3014,7 @@ footer {
 }
 
 .small {
-    font-size: 19px;
+    font-size: 30px;
 }
 
 }
@@ -3070,4 +3070,71 @@ footer {
 }
 
 
+}
+
+
+.container1 {
+	background-color: #f2f2f2;
+}
+
+.blocklands-container1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-left:28%; /* add this line to center the container1 */
+	margin-bottom:15%;
+	margin-top:13%;
+	margin-right:13%
+}
+
+.blockland {
+	background-color: #c7ecc7;
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 400px;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+	margin: 20px;
+}
+
+.blockland:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 8px 12px rgba(0,0,0,0.6);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.read-morel {
+	display: inline-blockland;
+	margin-top: 20px;
+	background-color: #75c9a9;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.arrow {
+	margin-left: 10px;
+}
+
+.read-morel:hover {
+	background-color: #56a78e;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+	.blocklands-container1 {
+		justify-content: space-between;
+	}
+	
+	.blockland {
+		max-width: calc(50% - 40px);
+		margin: 20px;
+	}
 }
